@@ -16,13 +16,13 @@ public class Main {
         salario = scanner.nextInt();
         scanner.nextLine();
         System.out.println("-------------Empleado 1--------------");
-        Empleado e1= new Empleado(nombre,cargo,salario,fecha);
+        Empleado e1= new Empleado(nombre,cargo,salario,fecha,100);
         e1.mostrar();
         System.out.println("-------------Empleado 2--------------");
-        Empleado e2=new Empleado("Jose","Gerente",1500,"20/10/2005");
+        Empleado e2=new Empleado("Jose","Gerente",1500,"20/10/2005",100);
         e2.mostrar();
         System.out.println("-------------Empleado 3--------------");
-        Empleado e3=new Empleado("Juan","Marketing",800,"31/1/2021");
+        Empleado e3=new Empleado("Juan","Marketing",800,"31/1/2021",100);
         e3.mostrar();
 
     }
